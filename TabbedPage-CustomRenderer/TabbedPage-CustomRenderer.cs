@@ -9,22 +9,13 @@ namespace TabbedPageCustomRenderer
 		public App()
 		{
 			// The root page of your application
-			var content = new ContentPage
+			var content = new TabbedPage
 			{
 				Title = "TabbedPage-CustomRenderer",
-				Content = new StackLayout
-				{
-					VerticalOptions = LayoutOptions.Center,
-					Children = {
-						new Label {
-							HorizontalTextAlignment = TextAlignment.Center,
-							Text = "Welcome to Xamarin Forms!"
-						}
-					}
-				}
+				Children = { new Page1(), new Page2(), new Page3() }
 			};
 
-			MainPage = new NavigationPage(content);
+			MainPage = content;
 		}
 
 		protected override void OnStart()
