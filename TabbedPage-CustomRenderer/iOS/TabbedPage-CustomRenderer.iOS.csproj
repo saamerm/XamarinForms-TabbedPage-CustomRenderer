@@ -94,6 +94,9 @@
     <Reference Include="Xamarin.Forms.Xaml">
       <HintPath>..\packages\Xamarin.Forms.2.5.0.121934\lib\Xamarin.iOS10\Xamarin.Forms.Xaml.dll</HintPath>
     </Reference>
+    <Reference Include="BottomBar.XamarinForms">
+      <HintPath>..\packages\ThriveGmbH.BottomNavigationBar.XF.1.0.2\lib\Xamarin.iOS10\BottomBar.XamarinForms.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\TabbedPage-CustomRenderer.csproj">

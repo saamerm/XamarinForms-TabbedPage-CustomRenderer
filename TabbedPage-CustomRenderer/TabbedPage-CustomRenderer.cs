@@ -1,5 +1,6 @@
 ﻿using System;
-
+using BottomBar;
+using BottomBar.XamarinForms;
 using Xamarin.Forms;
 
 namespace TabbedPageCustomRenderer
@@ -9,7 +10,7 @@ namespace TabbedPageCustomRenderer
 		public App()
 		{
 			// The root page of your application
-			var content = new TabbedPage
+			var content = new BottomBarPage
 			{
 				Title = "TabbedPage-CustomRenderer",
 				Children = { new Page1(), new Page2(), new Page3() }

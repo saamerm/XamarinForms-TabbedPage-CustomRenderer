@@ -106,6 +106,18 @@
     <Reference Include="Xamarin.Forms.Xaml">
       <HintPath>..\packages\Xamarin.Forms.2.5.0.121934\lib\MonoAndroid10\Xamarin.Forms.Xaml.dll</HintPath>
     </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.9.0.1\lib\portable-net45+wp80+win8+wpa81\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="BottomNavigationBar">
+      <HintPath>..\packages\BottomNavigationBar.1.4.0.3\lib\MonoAndroid403\BottomNavigationBar.dll</HintPath>
+    </Reference>
+    <Reference Include="BottomBar.Droid">
+      <HintPath>..\packages\ThriveGmbH.BottomNavigationBar.XF.1.0.2\lib\MonoAndroid10\BottomBar.Droid.dll</HintPath>
+    </Reference>
+    <Reference Include="BottomBar.XamarinForms">
+      <HintPath>..\packages\ThriveGmbH.BottomNavigationBar.XF.1.0.2\lib\MonoAndroid10\BottomBar.XamarinForms.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\TabbedPage-CustomRenderer.csproj">
